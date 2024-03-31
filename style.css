@@ -127,3 +127,57 @@ section img#mountains_front{
     color: white;
 
 }
+#allcards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    transition: transform 0.3s ease;
+}
+.card:hover,.img-card-top{
+    transform: scale(1.1);
+}
+#project01,#project02,#project03,#project04,#project05,#project06{
+    display: flex;
+}
+.cpp,.py,.html,.css,.bt{
+    padding: 2px;
+    border: 2px solid white;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    header .logo {
+        font-size: 1.5em;
+    }
+    header ul li {
+        margin-left: 10px;
+    }
+    section {
+        padding: 50px;
+    }
+    section #text {
+        font-size: 5vw;
+        right: -150px;
+    }
+    .sec {
+        padding: 50px;
+    }
+    .sec h2 {
+        font-size: 2.5em;
+    }
+    .sec p {
+        font-size: 0.9em;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #allcards {
+        justify-content: center;
+    }
+}
